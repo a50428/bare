@@ -2,14 +2,14 @@
 int main () {
 	int op ;
 	float x;
-	printf ("converter");
-printf ("(1) Unidades metricas");
-printf ("(2) Unidades volumetricas");
+	printf ("converter\n");
+printf ("(1) Unidades metricas\n");
+printf ("(2) Unidades volumetricas\n");
 scanf ("%d",& op );
 switch( op ){
 case 1:
-printf ("(1) m->km") ;
-printf ("(2) km- >m") ;
+printf ("(1) m->km\n") ;
+printf ("(2) km- >m\n") ;
 scanf ("%d",& op );
 if( op == 1) {
 printf ("m=?");
