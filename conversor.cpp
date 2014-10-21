@@ -6,6 +6,7 @@ int main () {
 	printf ("converter\n");
     printf ("(1) Unidades metricas\n");
     printf ("(2) Unidades volumetricas\n");
+    printf ("qualquer coisa");
 
     scanf ("%d",& op );
     switch( op ){
